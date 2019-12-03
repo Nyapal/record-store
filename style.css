@@ -1,0 +1,43 @@
+body {
+  text-align: center;
+  /* background-color: #f8f8ff; */
+}
+
+h1 {
+  /* color: #89cff0; */
+  position: absolute;
+  top: 10%;
+  left: 41%;
+}
+
+a:hover {
+  style: underline;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-row-gap: 25px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.artist {
+  margin-bottom: -1px;
+}
+
+.song {
+  margin-top: -3px;
+}
+
+.album-art {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 250px;
+  padding: 7px;
+}
+
+
