@@ -1,29 +1,22 @@
 <html>
   <head>
       <link rel="stylesheet" href="style.css">
-      <link rel="import" href="navbar.html">
       <script src="https://kit.fontawesome.com/5ab4394dee.js" crossorigin="anonymous"></script>
       <title> Good Muse </title>
   </head>
   <body>
+    <!-- Navbar -->
     <iframe src="navbar.html" style="border-width: 0; width:100%; height: 37px;"></iframe>
     <header>
       <img class="headerImg" src="./images/record player.jpg" />
       <h1> GOOD  <span id="muse"> MUSE </span> </h1>
       <!-- <button> New Music <br> Added Daily!! </button> -->
     </header>
+    <!-- Featured Music -->
     <ul id="featured">
     </ul>
+    <!-- Scripts -->
     <script src="music.js"></script>
     <script src="cart.js"></script>
-    <script>
-        var link = document.querySelector('link[rel="import"]');
-        var content = link.import;
-    
-        // Grab DOM from warning.html's document.
-        var el = content.querySelector('.nav');
-    
-        document.body.appendChild(el.cloneNode(true));
-      </script>
   </body>
 </html>
