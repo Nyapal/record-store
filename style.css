@@ -12,6 +12,11 @@ nav {
   padding: 5px;
 }
 
+nav a  {
+  color: #89cff0;
+  text-decoration: none;
+}
+
 .headerImg{
   margin-top: 5px;
   width: 175px;
@@ -26,12 +31,19 @@ h1 {
   /* color: #89cff0; */
   position: absolute;
   top: 10%;
-  left: 41%;
+  left: 47%;
 }
 
-/* a:hover {
-  style: underline;
-} */
+
+a:hover {
+  color: white;
+  background-color: #89cff0;
+  padding: 3px;
+}
+
+a:visited {
+  style: none;
+}
 
 ul {
   display: grid;
