@@ -29,8 +29,8 @@ for (var i = 0; i < music.length; i++) {
   songs += "<li>";
   songs += "<h4 class='artist'>" + music[i].artist + "</h4>";
   songs += "<img class='album-art' src=" + music[i].img + " />";
-  songs += "<div class='songNPrice'> <p class='song' id=" + music[i].song + ">" + music[i].song + "</p> <p class='price'> $" + music[i].price + "</p> </div>";
-  songs += "<div> <button class='play-button'> Play <i class='fas fa-play'></i> </button> <button class='buy-button'> Buy <i class='fa fa-shopping-cart'></i> </button> </div>"
+  songs += "<div class='songNPrice'> <p class='song' id='song'>" + music[i].song + "</p> <p class='price' id='price'> $" + music[i].price + "</p> </div>";
+  songs += "<div> <button class='play-button'> Play <i class='fas fa-play'></i> </button> <button class='buy-button' onclick='addItem()'> Buy <i class='fa fa-shopping-cart'></i> </button> </div>"
   songs += "</li>";
 }
 document.getElementById('featured').innerHTML = songs;

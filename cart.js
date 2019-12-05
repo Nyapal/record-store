@@ -1,10 +1,12 @@
 // console.log('hey bitch')
 shoppingCart = []
 
-function addItem () {
-  console.log(shoppingCart)
-  let song = document.getElementById('songTitle').innerHTML
-  shoppingCart.push(song)
+function addItem (song) {
   console.log(song)
-  console.log(shoppingCart)
+  // let song = document.getElementById('song').innerHTML
+  // let price = document.getElementById('price').innerHTML
+  // let item = {song, price}
+  // shoppingCart.push(item)
+  // console.log(song)
+  // console.log(shoppingCart)
 }
