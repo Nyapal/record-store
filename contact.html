@@ -1,12 +1,33 @@
 <html>
   <head>
     <title> Good Muse | Contact </title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <iframe src="navbar.html" style="border-width: 0; width:100%; height: 37px;"></iframe>
-    <h1 style="text-align: center;"> Contact </h1>
-    <p> Nyapal pls add content here </p>
-    <p> Today hoe!! </p>
-    <p> today is the day</p>
+
+    <h1 style="border-bottom: 3px solid black;"> Contact Us </h1>
+    
+    <form class="contactForm">
+      <label id="cfName" class="cfField">
+        <span class="cfText">
+          Name: 
+        </span>
+        <input class="cfInput">
+      </label>
+      <label id="cfEmail" class="cfField">
+        <span class="cfText">
+          Email:
+        </span>
+        <input class="cfInput">
+      </label>
+      <label id="cfMessage" class="cfField"> 
+        <span class="cfText">
+          Message: 
+        </span>
+        <textarea name="" id="" cols="30" rows="10" class="cfInput" style="margin-left: -25px;"></textarea> 
+      </label>
+      <button id="cfButton" type="submit"> Send </button>
+    </form>
   </body>
 </html>

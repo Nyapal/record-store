@@ -3,6 +3,7 @@ body {
   font-family: 'Quicksand', sans-serif;
   font-size: 16px;
   font-weight: 400;
+  height: 100%;
   /* background-color: #f8f8ff; */
 }
 
@@ -68,4 +69,32 @@ li {
   padding: 7px;
 }
 
+/* CONTACT FORM  */
 
+.contactForm {
+  margin-top: 10%;
+  width: 65%;
+  display: grid;
+  margin-left: 20%;
+}
+.cfField {
+  display: block;
+  padding: 10px;
+}
+
+.cfText {
+  font-weight: 800;
+  float: left;
+}
+
+.cfInput {
+  width: 65%;
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid grey;
+}
+
+#cfButton {
+  margin-left: 50%;
+  width: 45px;
+}
