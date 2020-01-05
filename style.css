@@ -19,7 +19,6 @@ body {
 
 h1 {
   /* color: #89cff0; */
-  position: absolute;
   top: 10%;
   left: 47%;
 }
@@ -72,7 +71,7 @@ li {
 /* CONTACT FORM  */
 
 .contactForm {
-  margin-top: 10%;
+  margin-top: 5%;
   width: 65%;
   display: grid;
   margin-left: 20%;
@@ -97,4 +96,27 @@ li {
 #cfButton {
   margin-left: 50%;
   width: 45px;
+}
+
+/* BLOG */
+
+#featuredBP {
+  grid-area: featured;
+}
+
+#popularBP {
+  grid-area: popular;
+}
+
+#recentBP {
+  grid-area: recent;
+}
+
+.blog {
+  display: grid;
+  grid-template-areas: 'featured featured featured popular'
+  'featured featured featured popular'
+  'recent recent recent popular';
+  grid-gap: 15px;
+  margin: 0 10% 0 10%;
 }
