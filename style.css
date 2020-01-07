@@ -100,7 +100,28 @@ li {
 
 /* BLOG */
 
-#featuredBP {
+.blog {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "featured featured popular" 
+  "featured featured popular" 
+  "recent recent popular";
+}
+
+.featured { 
+  grid-area: Featured-; 
+}
+
+.popular { 
+  grid-area: Popular; 
+}
+
+.recent { 
+  grid-area: Recent; 
+}
+
+/* #featuredBP {
   grid-area: featured;
 }
 
@@ -110,7 +131,7 @@ li {
 
 #recentBP {
   grid-area: recent;
-}
+} */
 
 /* .blog {
   display: grid;
@@ -121,8 +142,8 @@ li {
   margin: 0 10% 0 10%;
 } */
 
-.popularLI {
+/* .popularLI {
   margin: 10px; 
   border: 1px solid gray; 
   height: 175px;
-}
+} */
