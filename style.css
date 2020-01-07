@@ -112,11 +112,17 @@ li {
   grid-area: recent;
 }
 
-.blog {
+/* .blog {
   display: grid;
   grid-template-areas: 'featured featured featured popular'
-  'featured featured featured popular'
+  'recent recent recent popular'
   'recent recent recent popular';
   grid-gap: 15px;
   margin: 0 10% 0 10%;
+} */
+
+.popularLI {
+  margin: 10px; 
+  border: 1px solid gray; 
+  height: 175px;
 }
