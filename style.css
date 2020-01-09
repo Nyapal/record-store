@@ -99,51 +99,25 @@ li {
 }
 
 /* BLOG */
-
 .blog {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-areas: "featured featured popular" 
-  "featured featured popular" 
-  "recent recent popular";
+  display: flex; 
+  flex-direction: row;
+  height: 600px; 
 }
 
-.featured { 
-  grid-area: Featured-; 
+.leftColumn {
+  width: 75%;
 }
 
-.popular { 
-  grid-area: Popular; 
+.rightColumn {
+  width: 25%;
 }
 
-.recent { 
-  grid-area: Recent; 
+.featuredPost {
+  height: 75%;
 }
 
-/* #featuredBP {
-  grid-area: featured;
+.recentPost {
+  height: 25%;
+  margin-left: 10%;
 }
-
-#popularBP {
-  grid-area: popular;
-}
-
-#recentBP {
-  grid-area: recent;
-} */
-
-/* .blog {
-  display: grid;
-  grid-template-areas: 'featured featured featured popular'
-  'recent recent recent popular'
-  'recent recent recent popular';
-  grid-gap: 15px;
-  margin: 0 10% 0 10%;
-} */
-
-/* .popularLI {
-  margin: 10px; 
-  border: 1px solid gray; 
-  height: 175px;
-} */
