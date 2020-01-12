@@ -19,10 +19,16 @@
 
         function showItems() {
             console.log(`You have ${cart.length} items in your cart`)
+            for (let i = 0; i < cart.length; i += 1) {
+                console.log(`- ${cart[i].name} $${cart[i].price} x ${cart[i].qty}`)
+            }
         }
         
         addItem('Kiwi', 0.69)
+        addItem('Kiwi', 0.69)
         addItem('Fruit Bowl', 4.20)
+        addItem('Kiwi', 0.69)
+        addItem('Shark', 0.75)
         showItems()
     
     </script>
