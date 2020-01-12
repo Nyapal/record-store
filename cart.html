@@ -8,14 +8,19 @@
     <script>
         const cart = []
 
+        const obj = {name: 'Shoe', price: 0.99, qty: 3};
+        console.log(obj)
+
         function addItem(name, price) {
-            cart.push(name)
+            const item = {name: name, price: price, qty: 1};
+            cart.push(item)
 
         }
 
         function showItems() {
-            console.log(cart)
+            console.log(`You have ${cart.length} items in your cart`)
         }
+        
         addItem('Kiwi', 0.69)
         addItem('Fruit Bowl', 4.20)
         showItems()
